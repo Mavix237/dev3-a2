@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5000395816467040737
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1162643822837354703}
+  - component: {fileID: -8207308307449457692}
+  m_Layer: 0
+  m_Name: Object Tracker
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1162643822837354703
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5000395816467040737}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-8207308307449457692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5000395816467040737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81cfee2c390804845a1a70ff62aff2bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  imageNames:
+  - swoosh
+  - hand
+  - earth
+  - daisy
+  prefabs:
+  - {fileID: 7462726069205597783, guid: d7c09bbe464f74939b7490f36e2822da, type: 3}
+  - {fileID: 6454766123937037, guid: 2762962664c894d91bcbbe621f21b769, type: 3}
+  - {fileID: 2105950817730165319, guid: 1f9d641dba5d04839bfcfaadd8962af8, type: 3}
+  - {fileID: 5124475606542822505, guid: 50ecd9de812db4a5ebc411ede9e00d84, type: 3}
+  audioClips:
+  - {fileID: 8300000, guid: e1cd44c087b1e4add88e753398f170d4, type: 3}
+  - {fileID: 8300000, guid: e1cd44c087b1e4add88e753398f170d4, type: 3}
+  - {fileID: 8300000, guid: e1cd44c087b1e4add88e753398f170d4, type: 3}
+  - {fileID: 8300000, guid: e1cd44c087b1e4add88e753398f170d4, type: 3}
